@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stamina Tech</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Stamina Tech</h1>
+	<ul>
+		<li>String literals / Template strings</li>
+		<li>Interpolation</li>
+		<li>Placeholders</li>
+	</ul>
+<script type="text/javascript">
+	let name = 'Anakin';
+	let lastName = 'Skywalker';
+	let age = '8';
+	let affiliation = 'The Jedi Order';
+
+	console.log(`
+Full Name: ${name} ${lastName}
+
+	Age: ${age}
+
+Affiliation: ${affiliation}
+`);
+
+	name = 'Darth';
+	lastName = 'Vader';
+	age = '22';
+	affiliation = 'Galactic Empire';
+
+	console.log(`
+Full Name: ${name} ${lastName}
+Age: ${age}
+Affiliation: ${affiliation}
+`);
+</script>
+</body>
+</html>
