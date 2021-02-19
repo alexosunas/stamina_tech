@@ -19,10 +19,12 @@ https://www.youtube.com/channel/UCaADfzZVQh3DM19YtbkdhIA
 
 8 Numeric functions
 
-9 Boolean variables
+9 Math functions
 
-10 arrays
+10 Boolean variables
 
-11 objects
+11 arrays
 
 12 functions
+
+13 objects

@@ -1,7 +1,11 @@
-let bitcoinAmount = 3;
-let bitcoinValue = 45000;
+let bitcoinAmount = parseInt('3.5lol');
+let bitcoinValue = parseFloat('45000.5lol');
 let dogeAmount = 20;
-let dogeValue = 0.05;
+let dogeValue = 0.04999.toFixed(2);
+
+console.log('bitcoinAmount', bitcoinAmount);
+console.log('bitcoinValue', bitcoinValue);
+console.log('dogeValue', dogeValue);
 
 let totalCryptos = bitcoinAmount + dogeAmount;
 let dogesToBitcoin = bitcoinValue / dogeValue;
