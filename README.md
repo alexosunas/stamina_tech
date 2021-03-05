@@ -23,8 +23,18 @@ https://www.youtube.com/channel/UCaADfzZVQh3DM19YtbkdhIA
 
 10 Boolean variables
 
-11 arrays
+11 Boolean negations
 
-12 functions
+12 constants
 
-13 objects
+13 if conditions
+
+14 else condition
+
+15 coercion
+
+16 arrays
+
+17 function
+
+18 objects

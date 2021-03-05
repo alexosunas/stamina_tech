@@ -1,4 +1,4 @@
-let bitcoinAmount = 3.1;
+let bitcoinAmount = 3.9;
 let bitcoinValue = 45000.9;
 let dogeAmount = 20;
 let dogeValue = 0.05;
@@ -12,7 +12,7 @@ console.log('bitcoinValueFormatted', bitcoinValueFormatted);
 
 let totalCryptos = bitcoinAmount + dogeAmount;
 let dogesToBitcoin = bitcoinValue / dogeValue;
-let dollarsAfterCalculation = bitcoinValue * (bitcoinAmount - 1);
+let dollarsAfterCalculation = bitcoinValue * (bitcoinAmount - 9);
 
 console.log(`The largest amount of one type of cryptos that I have is: ${largestCryptoAmount}`)
 console.log(`Total Cryptos: ${totalCryptos}`);
